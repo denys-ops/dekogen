@@ -1,0 +1,10 @@
+language: python
+deploy:
+  provider: pypi
+  user: "denys-ops"
+  password:
+    secure: "MYItR80eu8PZd68+koeaXM3ncTPBu/fwq5Pb768jEY1gzwGN9jXFfrzICWVjd6BVDjvGc5J/7PWpYET8XGLsYCIZ2HzUN79+J3s3aM7nJappc1UBvtVaAMikjBy1iUCfOh1c0XDc4v+JURChNiCJ7X2D+hDnUpsoJtSh+zIbBM+gxcl581BdsGWNj22l1Vc2Br8L6n2QRL0F+DbG75HOE1xztvh/m5Yh2lksrfcDLFmcUevgOuVbn9t1npywkSo66csdMog6xQWNbk2MewD9whHvRJifSVk7N/ALBFTs6vlWGJmHzw7rKL4tCRyVRMQWdOiQ4Ev5eXIG16M5gEsCwZVSz9rfSBt812NSOhGlYZ1oFWmuuFtuuTFC//ZUR6UuBpIEHr9MEOIfErF5pdqYOz5Sn07ZOYMwjp8olUzeK9hD/22yYOayRuTbcwTf3nFzY+YPOwsc30HQK7cF1MDhQYdnBhOTi0fssuN9afCSZjmT/M1eh49tahFlqpZxau7XyopGn3HEedRFnkfiXw0TJWn87IuivHqR/b94mDyXPlLYWPFYXadQOzh8thHwgm/LWRDXR93LdO90Lh5XLSBM96e1mmwyZQjicrEDoFyzPyJgWEUGDdNAbcuVsFOVf8VlWgdbayibu9EbffYiL1gY4gxtF1iNq4gqfQbtSl9c/2s="
+  on:
+    branch: master
+install: pip3 install --upgrade pip
+script: pip3 install --upgrade pip
