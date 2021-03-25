@@ -22,7 +22,7 @@ setuptools.setup(
         ],
         python_requires='>=3.5',
         install_requires=["inflection==0.3.1",
-                          "PyYAML==5.1.2",
+                          "PyYAML==5.4",
                           "Click==7.0"],
         entry_points='''
     [console_scripts]
